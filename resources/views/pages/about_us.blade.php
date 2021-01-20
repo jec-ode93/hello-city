@@ -10,7 +10,7 @@
 
  @section('body')
         <!-- <h1>Hello from Quebec!</h1> -->
-        <img src="/images/developer.jpg" alt="Codeur">
+        <img src="{{ asset('/images/developer.jpg') }}" alt="Codeur">
 
         <p>Built with &hearts; by JEC-ODE93</p>
         <p><a href="{{route('home')}}">Revenir vers la page d'accueil</a> </p>
