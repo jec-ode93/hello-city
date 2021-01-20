@@ -10,11 +10,16 @@
     <body>
         @yield('body')
         {{config('project.slogan')}}
+        
+        <footer>
+            <p>&copy; copyright {{date('Y')}}
+                @if(!Route::is('about'))
+                    &middot;  <a href="{{route('about')}}">About Us</a></p>
+                @endif
+        </footer>
     </body>
    
-    <footer>
-        @yield('footer')
-    </footer>
+    
 </html>
 
 </html>
