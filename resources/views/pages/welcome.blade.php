@@ -1,7 +1,9 @@
 @extends('template')
 
 @section('title')
-        Hello City
+
+    {{config('app.name')  }}
+
 @endsection
       
  @section('body')

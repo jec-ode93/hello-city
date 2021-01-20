@@ -5,7 +5,7 @@
 
 
 @section('title')
-       About Us | config('app.name')
+       About Us | {{config('app.name')}}
 @endsection
 
  @section('body')
