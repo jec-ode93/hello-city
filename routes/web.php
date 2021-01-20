@@ -18,7 +18,7 @@ use App\Http\Controllers\About_usController;
 
 Route::get('/', function () {
     return view('pages/welcome');
-});
+})->name('home');
 
 // Route::get('vue', function(){
 //     return view('vue');
@@ -34,5 +34,5 @@ Route::get('/vue', [VueController::class, 'show']);
 Route::get('/contact', [ContactController::class, 'contact']);
 Route::get('/photo', [PhotoController::class, 'create']);
 Route::post('/photo', [PhotoController::class, 'store']);
-Route::get('/about_us', [About_usController::class, 'about']);
+Route::get('/about_us', [About_usController::class, 'about'])->name('about');
 
