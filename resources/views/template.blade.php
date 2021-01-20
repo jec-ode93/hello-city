@@ -9,6 +9,7 @@
     </head>
     <body>
         @yield('body')
+        {{config('project.slogan')}}
     </body>
    
     <footer>
