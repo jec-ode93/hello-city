@@ -1,7 +1,7 @@
 @extends('template')
 
 @section('title')
-       <title>AHello City</title>
+       Hello City
 @endsection
        
  @section('body')

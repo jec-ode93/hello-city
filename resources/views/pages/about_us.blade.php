@@ -1,7 +1,11 @@
 @extends('template')
 
+<!-- @section('title', 'About Us | Hello City') other solutions by adding the title as an argument-->
+       
+
+
 @section('title')
-       <title>About Us | Hello City</title>
+       About Us | Hello City
 @endsection
        
  @section('body')
