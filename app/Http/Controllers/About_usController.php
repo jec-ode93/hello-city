@@ -8,6 +8,6 @@ class About_usController extends Controller
 {
     //
     public function about(){
-        return view('about_us');
+        return view('pages/about_us');
     }
 }

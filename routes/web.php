@@ -17,7 +17,7 @@ use App\Http\Controllers\About_usController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('pages/welcome');
 });
 
 // Route::get('vue', function(){
