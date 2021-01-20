@@ -17,6 +17,6 @@
 
     </body>
     <footer>
-        <p>&copy; copyright {{date('Y')}} &middot;</p>
+        <p>&copy; copyright {{date('Y')}}</p>
     </footer>
 </html>
