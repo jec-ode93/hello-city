@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\VueController;
 use App\Http\Controllers\PhotoController;
+use App\Http\Controllers\About_usController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -33,4 +34,5 @@ Route::get('/vue', [VueController::class, 'show']);
 Route::get('/contact', [ContactController::class, 'contact']);
 Route::get('/photo', [PhotoController::class, 'create']);
 Route::post('/photo', [PhotoController::class, 'store']);
+Route::get('/about_us', [About_usController::class, 'about']);
 
